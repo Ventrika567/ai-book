@@ -1,0 +1,18 @@
+{
+    "apis": [
+        {
+            "name": "Google",
+            "search_url": "https://www.google.com",
+            "specific_book_url": "https://www.google.com/search?q=book"
+        },
+        {
+            "name": "Facebook",
+            "search_url": "https://www.facebook.com",
+            "specific_book_url": "https://www.facebook.com/search?q=book"
+        },
+        {
+            "name": "Twitter",
+            "url": "https://www.twitter.com"
+        }
+    ]
+}
