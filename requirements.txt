@@ -6,3 +6,7 @@ pypdf
 python-multipart
 pydantic
 streamlit
+requests
+httpx
+xml.etree.ElementTree
+typing
