@@ -1,0 +1,118 @@
+[
+  {
+    "path": "/openapi.json",
+    "methods": [
+      "GET",
+      "HEAD"
+    ],
+    "name": "openapi",
+    "docstring": "(No docstring)"
+  },
+  {
+    "path": "/docs",
+    "methods": [
+      "GET",
+      "HEAD"
+    ],
+    "name": "swagger_ui_html",
+    "docstring": "(No docstring)"
+  },
+  {
+    "path": "/docs/oauth2-redirect",
+    "methods": [
+      "GET",
+      "HEAD"
+    ],
+    "name": "swagger_ui_redirect",
+    "docstring": "(No docstring)"
+  },
+  {
+    "path": "/redoc",
+    "methods": [
+      "GET",
+      "HEAD"
+    ],
+    "name": "redoc_html",
+    "docstring": "(No docstring)"
+  },
+  {
+    "path": "/book",
+    "methods": [
+      "GET"
+    ],
+    "name": "search_book",
+    "docstring": "T\u00ecm ki\u1ebfm s\u00e1ch theo t\u00ean s\u1eed d\u1ee5ng OpenAlex API.\nK\u1ebft qu\u1ea3 tr\u1ea3 v\u1ec1 danh s\u00e1ch c\u00e1c s\u00e1ch v\u1edbi th\u00f4ng tin c\u01a1 b\u1ea3n."
+  },
+  {
+    "path": "/search_books",
+    "methods": [
+      "GET"
+    ],
+    "name": "search_books",
+    "docstring": "Endpoint 1: Search for books by name using the Open Library Search API."
+  },
+  {
+    "path": "/pricing/{isbn}",
+    "methods": [
+      "GET"
+    ],
+    "name": "get_ecampus_pricing",
+    "docstring": "Endpoint 2: Retrieve eCampus pricing for a given ISBN."
+  },
+  {
+    "path": "/search_ecampus",
+    "methods": [
+      "GET"
+    ],
+    "name": "search_ecampus_by_title",
+    "docstring": "Endpoint 3: Search for a book by title, get its ISBN from Open Library,\nthen fetch pricing from eCampus."
+  },
+  {
+    "path": "/pricing_openlibrary/{isbn}",
+    "methods": [
+      "GET"
+    ],
+    "name": "get_openlibrary_availability",
+    "docstring": "Endpoint 4: Retrieve Open Library availability information for a given ISBN."
+  },
+  {
+    "path": "/compare_book_providers",
+    "methods": [
+      "GET"
+    ],
+    "name": "compare_book_providers",
+    "docstring": "Search all provider query APIs, attach source metadata to the first result from each,\nthen fetch provider-specific details and return the lowest-cost provider."
+  },
+  {
+    "path": "/",
+    "methods": [
+      "GET"
+    ],
+    "name": "root",
+    "docstring": "(No docstring)"
+  },
+  {
+    "path": "/parse-pdf",
+    "methods": [
+      "POST"
+    ],
+    "name": "parse_pdf",
+    "docstring": "Upload a PDF, extract text, send text to OpenAI, and return a JSON array of books."
+  },
+  {
+    "path": "/analyze-syllabus",
+    "methods": [
+      "POST"
+    ],
+    "name": "analyze_syllabus",
+    "docstring": "Upload a PDF syllabus, extract books and schedule information,\nand return rental timing recommendations per book."
+  },
+  {
+    "path": "/chat-study-plan",
+    "methods": [
+      "POST"
+    ],
+    "name": "chat_study_plan",
+    "docstring": "Generate a personalized study and textbook access strategy from syllabus analysis and user context."
+  }
+]
